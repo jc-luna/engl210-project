@@ -1,0 +1,72 @@
+body {
+	background-color: white;
+}
+
+/*
+ *	Div classes
+ */ 
+
+.header {
+	text-align: center;
+	background-color: #500000;
+	color: white;
+
+	border-radius: 2.5% 2.5% 0.0% 0.0%;
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+
+.navbar {
+	text-align: center;
+	background-color: #500000;
+	color: white;
+
+	border-radius: 0.0% 0.0% 2.5% 2.5%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.navbar a {
+	text-align: center;
+	color: white;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.navbar a:hover {
+	background-color: white;
+	color: black;
+}
+
+.content {
+	background-color: #D1D1D1;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+/*
+ *	Shared defs
+ */
+
+h1, h2, p {
+}
+
+/*
+ *	Override defs
+ */
+
+h1 {
+	font-size: 2.5em;
+}
+
+h2 {
+	font-size: 1.5em;
+}
